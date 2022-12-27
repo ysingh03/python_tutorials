@@ -28,6 +28,20 @@ f = open("yogi.txt", "r")
 content = f.readlines()
 
 
+h = open("yogi3.txt", "w")
+b = h.write("Hello All, I am good boy\n")
+
+g = open("yogi2.txt", "a")
+a = g.write("Hello All, I am good boy\n")
+
+
+# Handle to read and write both
+
+j = open("yogi3.txt", "r+")
+print(j.read())
+j.write("Thanks you\n")
+
+
 
 f.close()
 
