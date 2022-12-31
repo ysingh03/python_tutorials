@@ -23,9 +23,8 @@
 x = 50
 
 
-def yogi(y):
+def yogi():
     x = 10
-    print(y)
 
     def rashi():
         global x
@@ -35,5 +34,5 @@ def yogi(y):
         print("after calling rashi() x value", x)
 
 
-yogi(30)
-# print(x)
+yogi()
+print(x)
